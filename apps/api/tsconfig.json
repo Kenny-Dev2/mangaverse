@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@mangaverse/config/typescript/node.json",
+  "compilerOptions": {
+    "declaration": true,
+    "removeComments": true,
+    "outDir": "./dist",
+    "incremental": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "test"]
+}

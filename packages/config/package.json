@@ -1,0 +1,11 @@
+{
+  "name": "@mangaverse/config",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./typescript/base.json": "./typescript/base.json",
+    "./typescript/react.json": "./typescript/react.json",
+    "./typescript/node.json": "./typescript/node.json"
+  }
+}
